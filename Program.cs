@@ -6,5 +6,10 @@
         {
             Console.WriteLine("Hello, from georges with bug fix!");
         }
+
+        public static void SayHello()
+        {
+            Console.WriteLine("Hello, from SWD!");
+        }
     }
 }
