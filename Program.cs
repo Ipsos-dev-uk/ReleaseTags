@@ -4,9 +4,12 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, from georges!");
-            Console.WriteLine("Hello, from georges v1.2!");
+            Console.WriteLine("Hello, from georges with bug fix!");
+        }
 
+        public static void SayHello()
+        {
+            Console.WriteLine("Hello, from SWD!");
         }
     }
 }
